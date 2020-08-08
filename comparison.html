@@ -23,7 +23,7 @@
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           </button>
           <div class="col-xs-9">
-            <a  href="#" >Latitude</a>  <!-- Logo is defined to have padding, margin, font size, etc--> 
+            <a  href="index.html" >Latitude</a>  <!-- Logo is defined to have padding, margin, font size, etc--> 
           </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,24 +47,50 @@
 
     </div>
   </nav>
-  <section>
-    <h1>Comparison page</h1>
-    <p>Comparison info and graphics</p>
+
+<!-- Our rows function in containers (grid created). -->
+<div class="container">
+
+  <!-- Our columns function in rows. -->
+  <div class="row">
+
+    <!-- Columns have 12 areas of width to work with. -->
+    <section>
+    <!-- Two third of screen (8/12) -->
+    <div class="col-md-8">
+      <!-- This is column 1 of 2 -->
+      <h1>Comparison</h1>
+      <h2>View images for comparison</h2>
+      <a href="vis1maxtemp.html"><img src="images/Fig1.png" alt="MaxTemp" width="250px"
+        height="250px"></a>
+        <a href="vis2humidity.html"><img src="images/Fig2.png" alt="Humidity" width="250px"
+        height="250px"></a>
+        <a href="vis3cloudiness.html"><img src="images/Fig3.png" alt="Cloudiness" width="250px"
+        height="250px"></a>
+        <a href="vis4windspeed.html"><img src="images/Fig4.png" alt="Wind Speed" width="250px"
+        height="250px"></a>
+
+      
+    </div>
+
+    <!-- One third of screen (4/12) -->
+    <div class="col-md-4">
+      <!-- This is column 2 of 2 -->
+        <a href="vis1maxtemp.html"><img src="images/Fig1.png" alt="MaxTemp" width="150px"
+        height="150px"></a>
+        <a href="vis2humidity.html"><img src="images/Fig2.png" alt="Humidity" width="150px"
+        height="150px"></a>
+        <a href="vis3cloudiness.html"><img src="images/Fig3.png" alt="Cloudiness" width="150px"
+        height="150px"></a>
+        <a href="vis4windspeed.html"><img src="images/Fig4.png" alt="Wind Speed" width="150px"
+        height="150px"></a>
+    </div>
+
+    </section>
+
     
+  </div>
 
-     <p>Links: <p>
-  <p><a href="index.html">Home</a></p>
-  <p><a href="comparison.html">Comparison</a></p>
-  <p><a href="data.html">Data</a></p>
- <p><a href="vis1maxtemp.html"><img src="images/Fig1.png" alt="MaxTemp" width="100px"
-	height="100px">Visualization 1: Max Temp</a></p>
-
-  <p><a href="vis2humidity.html"><img src="images/Fig2.png" alt="Humidity" width="100px"
-	height="100px">Visualization 2: Humidity</a></p>
-  <p><a href="vis3cloudiness.html"><img src="images/Fig3.png" alt="Cloudiness" width="100px"
-	height="100px">Visualization 3: Cloudiness</a></p>
-  <p><a href="vis4windspeed.html"><img src="images/Fig4.png" alt="Wind Speed" width="100px"
-	height="100px">Visualization 4: Windspeed</a></p>
 </body>
 
 </html>
