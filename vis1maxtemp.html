@@ -3,10 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
+      <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+      <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <title>Weather Web Design - Max Temp</title>
 </head>
 
 <body>
+
+  <nav class = "navbar navbar-default">
+    <div class = "container-fluid">
+
+      <div class="row">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          </button>
+          <div class="col-xs-9">
+            <a  href="#" >Latitude</a>  <!-- Logo is defined to have padding, margin, font size, etc--> 
+          </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">         <!--The .caret class creates a caret arrow icon (), which indicates that the button is a dropdown--> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">                 <!--To open the dropdown menu, use a button or a link with a class of .dropdown-toggle--> 
+                  <li><a href="vis1maxtemp.html">Max Temperature</a></li>
+                  <li><a href="vis2humidity.html">Humidity</a></li>
+                  <li><a href="vis3cloudiness.html">Cloudiness</a></li>
+                  <li><a href="vis4windspeed.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="data.html">Data</a></li>
+            </ul>
+          </div>
+
+      </div>
+
+    </div>
+  </nav>
   <section>
     <h1>Max Temp page</h1>
     <p> Max temp graph</p>
@@ -17,14 +57,14 @@
   <p><a href="comparison.html">Comparison</a></p>
   <p><a href="data.html">Data</a></p>
  <p><a href="vis1maxtemp.html"><img src="images/Fig1.png" alt="MaxTemp" width="100px"
-	height="100px">Visualation 1: Max Temp</a></p>
+	height="100px">Visualization 1: Max Temp</a></p>
 
   <p><a href="vis2humidity.html"><img src="images/Fig2.png" alt="Humidity" width="100px"
-	height="100px">Visualation 2: Humidity</a></p>
+	height="100px">Visualization 2: Humidity</a></p>
   <p><a href="vis3cloudiness.html"><img src="images/Fig3.png" alt="Cloudiness" width="100px"
-	height="100px">Visualation 3: Cloudiness</a></p>
+	height="100px">Visualization 3: Cloudiness</a></p>
   <p><a href="vis4windspeed.html"><img src="images/Fig4.png" alt="Wind Speed" width="100px"
-	height="100px">Visualation 4: Windspeed</a></p>
+	height="100px">Visualization 4: Windspeed</a></p>
 </body>
 
 </html>
