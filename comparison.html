@@ -15,23 +15,24 @@
 </head>
 
 <body>
-
+  <!-- set up the nav bar for each page -->
   <nav class = "navbar navbar-default">
-    <div class = "container-fluid">
-
+    <div class = "container-fluid navbar-custom">
+      <!-- upper left logo -->
       <div class="row">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           </button>
-          <div class="col-xs-9">
-            <a  href="index.html" >Latitude</a>  <!-- Logo is defined to have padding, margin, font size, etc--> 
+          <!-- make upper left id= "logo" and set its properties in style.css -->
+          <div class="col-xs-9 phone-nav" id = "logo">
+            <a  href="index.html" >Latitude</a> 
           </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- right side of nav bar; use li = dropdown, use, .caret and use class = dropdown-toggle -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">         <!--The .caret class creates a caret arrow icon (), which indicates that the button is a dropdown--> 
+              <li class="dropdown">          
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-                <ul class="dropdown-menu">                 <!--To open the dropdown menu, use a button or a link with a class of .dropdown-toggle--> 
+                <ul class="dropdown-menu">  
                   <li><a href="vis1maxtemp.html">Max Temperature</a></li>
                   <li><a href="vis2humidity.html">Humidity</a></li>
                   <li><a href="vis3cloudiness.html">Cloudiness</a></li>
