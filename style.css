@@ -10,7 +10,7 @@
 }
 
 
-/* Logo */
+/* logo */
 #logo {
 
   /* Spacing */
@@ -21,11 +21,11 @@
   /* Location, font */
   margin-left: 0;
   font-family: Georgia, Times, "Times New Roman", serif;
+  color: #FF3399;
 
   /* Formatting */
   font-size: 24px;
   font-weight: bold;
  
-}
 }
 
