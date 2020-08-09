@@ -9,6 +9,23 @@
   margin-top: 80px;
 }
 
-/* .navbar-custom {
-  background-color: #fff;
-} */
+
+/* Logo */
+#logo {
+
+  /* Spacing */
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+  /* Location, font */
+  margin-left: 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Formatting */
+  font-size: 24px;
+  font-weight: bold;
+ 
+}
+}
+
